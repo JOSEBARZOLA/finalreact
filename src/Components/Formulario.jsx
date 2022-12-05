@@ -16,7 +16,7 @@ function ContactForm() {
 <>
     <DivContainer>
       
-        <form className='form' onSubmit={handleSubmit}>
+        <form className='form' action='https://formspree.io/f/mnqreana' method='POST' onSubmit={handleSubmit}>
         <div class="form__container">
         <h3 className='form__title'><span>Contáctame</span></h3>
 

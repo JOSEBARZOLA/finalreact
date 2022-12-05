@@ -13,7 +13,7 @@ function Navbar() {
     <>
       <NavContainer>
         
-        <h2>Ignacio Alvarez <span>Revestimientos</span></h2>
+        <h2>IA <span>Revestimientos</span></h2>
         <div className={`links ${clicked ? 'active' : ''}`}>
           <a onClick={handleClick} href="../app.js">Home</a>
           <a onClick={handleClick} href="../Trabajos.js">Trabajos</a>

@@ -11,13 +11,17 @@ function Footer() {
                 <nav className='row'>
     
                     <ul className=' col-12 col-md-6 list-unstyled p-0 '>
-                       <li className='font-weight-bold mb-2 '>Ignacio Alvarez<br/><span>REVESTIMIENTOS</span></li>
+                       <li className='font-weight-bold mb-2'>IA<br/><span>REVESTIMIENTOS</span></li>
                        <li className='font-weight-bold mb-2'></li>
                        <li className='text-start'>General Baldissera, Cordoba.</li>
                        <li className='text-start'>Horario de atención: 08:00hs a 18:00hs.</li>
                     </ul>
-                    <div className='container-text'><hr/>
+                    
+                    <hr/>
+                    <br />
+                    <div className='container-text'>
                        <p className='text-center mb-0 mt-0'>Copyright 2022, Jose Barzola - Full stack developer.</p>
+                    
                     </div>
             
 
