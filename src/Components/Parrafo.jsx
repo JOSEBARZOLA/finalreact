@@ -25,7 +25,6 @@ export default Parrafo
 
 
 const DivParrafo = styled.div`
-
 .DivParrafo {
     display: flex;
     width: 50%;
@@ -66,4 +65,19 @@ background: linear-gradient(0deg, rgba(0,2,110,1) 10%, rgba(0,0,0,1) 30%, rgba(7
     margin-right: 1rem;
     
   }
+  
+
+  @media (max-width:450px) {
+    .DivParrafo {
+       
+        width: 300px;
+        height: 100% auto;
+       
+    }
+
+   
+
+  
+
+}
 `

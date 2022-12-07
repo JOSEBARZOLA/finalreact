@@ -1,15 +1,23 @@
-import React from 'react'
-import {mailer} from './Components/mailer/Mailer';
+import './App.css';
+import Navbar from './Components/Navbar';
+import Carrousell from './Components/Carrousell';
+import Formulario from './Components/Formulario';
+import Footer from './Components/Footer';
+import DivSocial from './Components/DivSocial';
 
-
-
-function Contacto() {
+function App() {
   return (
-   <Mailer>
-
-   </Mailer>
-  
+    <>
+    <Navbar/>
+    <Carrousell/>
+    <Formulario/>
+    <br></br>
+    <DivSocial/>
+    <Footer/>
+    </>
+    
   );
 }
 
-export default Contacto;
+export default App;
+

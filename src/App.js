@@ -4,23 +4,21 @@ import Carrousell from './Components/Carrousell';
 import Formulario from './Components/Formulario';
 import Footer from './Components/Footer';
 import Parrafo from './Components/Parrafo';
-import styled from 'styled-components'
-
-
-
+import Galeria from './Components/Galeria';
+import DivSocial from './Components/DivSocial';
 
 function App() {
   return (
     <>
-    <div className='Body'>
     <Navbar/>
     <Carrousell/>
     <Parrafo/>
-    <br></br>
+    <Galeria/>
     <Formulario/>
     <br></br>
+    <DivSocial/>
+    <br></br>
     <Footer/>
-    </div>
     </>
     
   );
@@ -28,10 +26,3 @@ function App() {
 
 export default App;
 
-const Body = styled.div`
-
-.Body {
-  
-  color: black;
-}
-`

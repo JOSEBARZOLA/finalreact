@@ -12,7 +12,9 @@
     "bootstrap-icons": "^1.10.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-responsive-masonry": "^2.1.6",
     "react-scripts": "5.0.1",
+    "react-viewerjs": "^0.1.9",
     "reactstrap": "^9.1.5",
     "styled-components": "^5.3.6",
     "web-vitals": "^2.1.4"
