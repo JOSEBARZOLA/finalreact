@@ -1,11 +1,13 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
 import BurguerButton from './BurguerButton'
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function Navbar() {
-  
+
+
+
 
   const [clicked, setClicked] = useState(false)
   const handleClick = () => {
@@ -18,7 +20,7 @@ function Navbar() {
         
         <h2>IA <span>Revestimientos</span></h2>
         <div className={`links ${clicked ? 'active' : ''}`}>
-          <a onClick={handleClick} href=".../app.js">Home</a>
+          <a onClick={handleClick} href=".../App.js">Home</a>
           <a onClick={handleClick} href=".../Trabajos.js">Trabajos</a>
           <a onClick={handleClick} href=".../Contacto.js">Contacto</a>
         </div>

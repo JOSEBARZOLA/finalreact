@@ -7,18 +7,15 @@ import Parrafo from './Components/Parrafo';
 import Galeria from './Components/Galeria';
 import DivSocial from './Components/DivSocial';
 
+
 function App() {
   return (
     <>
     <Navbar/>
     <Carrousell/>
     <Parrafo/>
-    <Galeria/>
-    <Formulario/>
-    <br></br>
-    <DivSocial/>
-    <br></br>
     <Footer/>
+    
     </>
     
   );

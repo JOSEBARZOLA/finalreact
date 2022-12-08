@@ -15,8 +15,18 @@ function Parrafo() {
 
     </div>
 </div>
+<div className='DivParrafo'>
 
-    
+<div className='Contenido'>
+    <h3 className='Titulo'><span>¿Quienes somos?</span></h3>
+    <p className='Parrafo'>IA Revestimientos, es una empresa familiar, en continuo crecimiento.</p>
+    <p className='Parrafo'>Ubicados en la localidad de General Baldissera, provincia de Córdoba.</p>
+    <p className='Parrafo'>Hacemos trabajo de revestimiento con Durlock y fibrocemento, tambien realizamos fajas para control de humedad.</p>
+    <p className='Parrafo'>Y si lo que desea es darle vida a su hogar, le ofrecemos un servicio de pinturería y trabajos de Revear, con las mejores pinturas del mercado.</p>
+
+    </div>
+</div>
+
         </DivParrafo>
   )
 }

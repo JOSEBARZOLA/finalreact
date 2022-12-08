@@ -2,8 +2,9 @@ import './App.css';
 import Navbar from './Components/Navbar';
 import Carrousell from './Components/Carrousell';
 import Formulario from './Components/Formulario';
-import Footer from './Components/Footer';
 import DivSocial from './Components/DivSocial';
+import Footer from './Components/Footer';
+
 
 function App() {
   return (
@@ -11,7 +12,6 @@ function App() {
     <Navbar/>
     <Carrousell/>
     <Formulario/>
-    <br></br>
     <DivSocial/>
     <Footer/>
     </>
