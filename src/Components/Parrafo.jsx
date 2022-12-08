@@ -10,7 +10,7 @@ function Parrafo() {
     <h3 className='Titulo'>IA <span>Revestimientos</span></h3>
     <p className='Parrafo'>Transformamos tu espacio creando la mejor versión de tu hogar.</p>
     <p className='Parrafo'>¡Un servicio incomparable!</p>
-    <p className='Parrafo'>Nuestro servicio personalizado nos posiciona como pioneros en el negocio, porque asesoramos a nuestros clientes y compartimos nuestas recomendaciones.</p>
+    <p className='Parrafo'>Nuestro servicio personalizado nos posiciona como pioneros en el negocio, porque asesoramos a nuestros clientes y compartimos nuestras recomendaciones.</p>
     <p className='Parrafo'>especializados en lo que hacemos, identificamos el problema y calculamos los materiales exactos, para dar el mejor precio con un presupuesto acorde a lo que el cliente solicita.</p>
 
     </div>
