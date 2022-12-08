@@ -1,0 +1,21 @@
+.navBg{
+    padding: .4rem;
+  background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(7,8,31,1) 24%, rgba(42,45,180,1) 81%, rgba(0,238,232,1) 100%);
+   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 100;
+}
+
+.links{
+color: aliceblue;
+
+
+}
+
+.title{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}

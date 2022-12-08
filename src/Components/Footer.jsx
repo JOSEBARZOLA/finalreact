@@ -11,7 +11,7 @@ function Footer() {
                 <nav className='row'>
     
                     <ul className=' col-12 col-md-6 list-unstyled p-0 '>
-                       <li className='font-weight-bold mb-2'>IA<br/><span>REVESTIMIENTOS</span></li>
+                       <li className='font-weight-bold mb-2 col-1'>IA<br/><span>REVESTIMIENTOS</span></li>
                        <li className='font-weight-bold mb-2'></li>
                        <li className='text-start'>General Baldissera, Cordoba.</li>
                        <li className='text-start'>Horario de atención: 08:00hs a 18:00hs.</li>

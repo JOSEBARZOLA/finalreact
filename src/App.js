@@ -1,25 +1,36 @@
 import './App.css';
-import Navbar from './Components/Navbar';
-import Carrousell from './Components/Carrousell';
-import Formulario from './Components/Formulario';
-import Footer from './Components/Footer';
-import Parrafo from './Components/Parrafo';
-import Galeria from './Components/Galeria';
-import DivSocial from './Components/DivSocial';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
+
+import Home from './Home';
+
+import Contacto from './Contacto'
+import Trabajos from './Trabajos'
+import NavBarExample from './Components/Navegador/navegador';
+
 
 
 function App() {
   return (
-    <>
-    <Navbar/>
-    <Carrousell/>
-    <Parrafo/>
-    <Footer/>
-    
-    </>
-    
+    <div className="App">
+
+      <BrowserRouter>
+        <NavBarExample className="contenedorData" />
+        
+          <Routes>
+            <Route path='/' element={<Home />} />
+            <Route path='Contacto' element={<Contacto />} />
+            <Route path='Trabajos' element={<Trabajos />} />
+            <Route path='*' element={<Navigate replace to="/" />} />
+          </Routes>
+      </BrowserRouter>
+      
+
+    </div>
+
+
   );
 }
 
-export default App;
 
+export default App;

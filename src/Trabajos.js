@@ -1,5 +1,5 @@
 import './App.css';
-import Navbar from './Components/Navbar';
+import navegador from './Components/Navegador/navegador';
 import Carrousell from './Components/Carrousell';
 import Footer from './Components/Footer';
 import Galeria from './Components/Galeria';
@@ -7,11 +7,9 @@ import Galeria from './Components/Galeria';
 function App() {
   return (
     <>
-    <Navbar/>
+    <navegador/>
     <Carrousell/>
-    <br></br>
     <Galeria/>
-    <br></br>
     <Footer/>
     </>
     

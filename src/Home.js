@@ -1,23 +1,28 @@
+import React from 'react'
 import './App.css';
 import navegador from './Components/Navegador/navegador';
 import Carrousell from './Components/Carrousell';
-import Formulario from './Components/Formulario';
-import DivSocial from './Components/DivSocial';
 import Footer from './Components/Footer';
+import Parrafo from './Components/Parrafo';
 
 
-function App() {
+
+function Home() {
   return (
     <>
     <navegador/>
     <Carrousell/>
-    <Formulario/>
-    <DivSocial/>
+    <Parrafo/>
     <Footer/>
     </>
-    
-  );
+  )
 }
 
-export default App;
+export default Home
+
+
+
+
+
+
 
