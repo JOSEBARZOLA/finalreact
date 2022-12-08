@@ -11,7 +11,7 @@ function NavBarExample() {
     <>
             <Navbar className="navBg"  expand="lg">
                 <Container className='contenido'>
-                    <Navbar.Brand className='title' as={Link} to="/" ><span>IA Revestimientos</span></Navbar.Brand>
+                    <h3 className='title'><span>IA Revestimientos</span></h3>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
